@@ -1,0 +1,2 @@
+# StaticSource
+My static source
