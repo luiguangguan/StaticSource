@@ -1,0 +1,45 @@
+<!-- Office 365 client configuration file sample. To be used for Office 365 ProPlus apps, 
+     Office 365 Business apps, Project Pro for Office 365 and Visio Pro for Office 365. 
+
+     For detailed information regarding configuration options visit: http://aka.ms/ODT. 
+     To use the configuration file be sure to remove the comments
+
+     The following sample allows you to download and install the 64 bit version of the Office 365 ProPlus apps 
+     and Visio Pro for Office 365 directly from the Office CDN using the Monthly Channel
+     settings  -->
+
+<Configuration>
+
+  <!-- 专业增强版 -->
+<Add OfficeClientEdition="64" Channel="PerpetualVL2019">
+  <!-- <Add OfficeClientEdition="64" Channel="Monthly"> -->
+    <Product ID="ProPlus2019Volume">
+
+		<Language ID="zh-cn" />  
+
+		<ExcludeApp ID="Access" /> 
+
+		<ExcludeApp ID="Groove" /> 
+
+		<ExcludeApp ID="InfoPath" /> 
+
+		<ExcludeApp ID="Lync" /> 
+
+		<ExcludeApp ID="OneNote" /> 
+
+		<ExcludeApp ID="Outlook" /> 
+
+		<ExcludeApp ID="Publisher" /> 
+
+		<!-- <ExcludeApp ID="SharePointDesigner" /> -->
+
+    </Product>
+  </Add>
+
+  <!--  <Updates Enabled="TRUE" Channel="Monthly" /> -->
+
+  <!--  <Display Level="None" AcceptEULA="TRUE" />  -->
+
+  <!--  <Property Name="AUTOACTIVATE" Value="1" />  -->
+
+</Configuration>
